@@ -24,3 +24,32 @@ html {
 body {
 	font-family: "Roboto", sans-serif;
 }
+
+
+// Landing page
+.landing {
+	background-color: $navy;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+	&__title {
+		color: #fff;
+		font-size: 4rem;
+		margin-top: 6rem;
+	}
+
+	&__summary {
+		color: $light-blue;
+		font-weight: 300;
+		font-size: 2rem;
+		margin-top: 2.5%;
+
+	}
+
+	&__img {
+		width: 100%;
+		margin-top: -10rem;
+	}
+}

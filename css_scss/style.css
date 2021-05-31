@@ -13,4 +13,22 @@ html {
 body {
   font-family: "Roboto", sans-serif; }
 
+.landing {
+  background-color: #06303f;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .landing__title {
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 6rem; }
+  .landing__summary {
+    color: #87bacd;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 2.5%; }
+  .landing__img {
+    width: 100%;
+    margin-top: -10rem; }
+
 /*# sourceMappingURL=style.css.map */
