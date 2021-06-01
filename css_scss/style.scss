@@ -26,6 +26,8 @@ body {
 }
 
 
+
+
 // Landing page
 .landing {
 	background-color: $navy;
@@ -52,4 +54,76 @@ body {
 		width: 100%;
 		margin-top: -10rem;
 	}
+}
+
+.login {
+	display: flex;
+	flex-direction: column;
+	margin: 6rem auto;
+	width: 80%;
+
+	&__title {
+		display: flex;
+		flex-direction: column;
+		font-size: 4rem;
+
+		margin-bottom: 3rem;
+	}
+
+	&__label {
+		text-align: left;
+		margin-bottom: 1rem;
+		font-size: 2rem;
+
+		&-checkbox {
+			font-weight: 300;
+		}
+
+		a {
+			color: $navy;
+			font-weight: 700;
+		}
+	}
+
+	&__textbox {
+		font-family: inherit;
+		font-size: 2rem;
+		height: 6rem;
+		border: 1px solid $gray;
+		border-radius: 6px;
+		padding-left: 1rem;
+	}
+
+	&__textbox:focus, &__textbox[type=password], &__textbox[type=email] {
+		outline: none;
+
+	}
+
+	&__textbox:focus::placeholder {
+		color: transparent;
+	}
+
+	&__checkbox {
+		margin-right: 1rem;
+		transform: scale(1.5);
+
+	}
+
+	&__btn,
+	&__btn:link,
+	&__btn:visited {
+		margin-top: 2rem;
+		font-size: 2rem;
+		font-weight: 700;
+		text-decoration: none;
+		color: #fff;
+		padding: 2rem 8rem;
+		background-color: $navy;
+		align-self: center;
+		border-radius: 8px;
+	}
+}
+
+input {
+	margin-bottom: 2rem;
 }
