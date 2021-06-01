@@ -16,6 +16,10 @@ $light-gray: #d4d4d4;
 	box-sizing: inherit;
 }
 
+// Breakpoints
+$tablet: 46.9em; // 750px
+$desktop: 75em; // 1200px
+
 html {
 	box-sizing: border-box;
 	font-size: 62.5%; // 1rem = 10px;
@@ -23,10 +27,8 @@ html {
 
 body {
 	font-family: "Roboto", sans-serif;
+
 }
-
-
-
 
 // Landing page
 .landing {
@@ -61,6 +63,7 @@ body {
 	flex-direction: column;
 	margin: 6rem auto;
 	width: 80%;
+	// background-color: #fff;
 
 	&__title {
 		display: flex;
